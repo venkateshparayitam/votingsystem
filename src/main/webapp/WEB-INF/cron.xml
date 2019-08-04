@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/reminderEmailServlet</url>
+    <target>beta</target>
+    <description>voting reminder email</description>
+    <schedule>every 5 minutes</schedule>
+  </cron>
+</cronentries>

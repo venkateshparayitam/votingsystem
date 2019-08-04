@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datastore-indexes
+  autoGenerate="true">
+    <datastore-index kind="Candidate" ancestor="false">
+        <property name="FirstName" direction="asc" />
+        <property name="Surname" direction="asc" />
+        <property name="Faculty" direction="asc" />
+        <property name="Votes" direction="asc" />
+    </datastore-index>
+    
+    <datastore-index kind="PollInterval" ancestor="false">
+        <property name="PollStarts" direction="asc" />
+        <property name="PollEnds" direction="asc" />
+    </datastore-index>
+    
+    <datastore-index kind="VoterEmail" ancestor="false">
+        <property name="Email" direction="asc" />
+        <property name="Token" direction="asc" />
+        <property name="HasVoted" direction="asc" />
+    </datastore-index>
+    
+    <datastore-index kind="ReminderFlag" ancestor="false">
+        <property name="Flag" direction="asc" />
+        <property name="Reminder" direction="asc" />
+    </datastore-index>
+</datastore-indexes>
